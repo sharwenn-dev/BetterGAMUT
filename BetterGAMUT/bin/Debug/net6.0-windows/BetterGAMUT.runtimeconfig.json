@@ -10,13 +10,6 @@
         "name": "Microsoft.WindowsDesktop.App",
         "version": "6.0.0"
       }
-    ],
-    "additionalProbingPaths": [
-      "C:\\Users\\kubala.j\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\kubala.j\\.nuget\\packages"
-    ],
-    "configProperties": {
-      "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
-    }
+    ]
   }
 }
