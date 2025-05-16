@@ -18,3 +18,4 @@ C:\Users\kubala.j\Desktop\BetterGAMUT\BetterGAMUT\obj\Debug\net6.0-windows\Bette
 C:\Users\kubala.j\Desktop\BetterGAMUT\BetterGAMUT\obj\Debug\net6.0-windows\BetterGAMUT.Index.resources
 C:\Users\kubala.j\Desktop\BetterGAMUT\BetterGAMUT\obj\Debug\net6.0-windows\BetterGAMUT.Lessons.resources
 C:\Users\kubala.j\Desktop\BetterGAMUT\BetterGAMUT\obj\Debug\net6.0-windows\BetterGAMUT.staffnoteid.resources
+C:\Users\kubala.j\Desktop\BetterGAMUT\BetterGAMUT\obj\Debug\net6.0-windows\BetterGAMUT.Properties.Resources.resources

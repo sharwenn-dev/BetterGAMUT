@@ -33,9 +33,10 @@
             // 
             // home_2
             // 
+            this.home_2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.home_2.Location = new System.Drawing.Point(12, 12);
             this.home_2.Name = "home_2";
-            this.home_2.Size = new System.Drawing.Size(75, 23);
+            this.home_2.Size = new System.Drawing.Size(70, 30);
             this.home_2.TabIndex = 0;
             this.home_2.Text = "Home";
             this.home_2.UseVisualStyleBackColor = true;
