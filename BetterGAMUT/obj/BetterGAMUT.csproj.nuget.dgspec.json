@@ -1,32 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\monic\\Documents\\GitHub\\BetterGAMUT\\BetterGAMUT\\BetterGAMUT.csproj": {}
+    "C:\\Users\\kubala.j\\Desktop\\BetterGAMUT\\BetterGAMUT\\BetterGAMUT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\monic\\Documents\\GitHub\\BetterGAMUT\\BetterGAMUT\\BetterGAMUT.csproj": {
+    "C:\\Users\\kubala.j\\Desktop\\BetterGAMUT\\BetterGAMUT\\BetterGAMUT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\monic\\Documents\\GitHub\\BetterGAMUT\\BetterGAMUT\\BetterGAMUT.csproj",
+        "projectUniqueName": "C:\\Users\\kubala.j\\Desktop\\BetterGAMUT\\BetterGAMUT\\BetterGAMUT.csproj",
         "projectName": "BetterGAMUT",
-        "projectPath": "C:\\Users\\monic\\Documents\\GitHub\\BetterGAMUT\\BetterGAMUT\\BetterGAMUT.csproj",
-        "packagesPath": "C:\\Users\\monic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\monic\\Documents\\GitHub\\BetterGAMUT\\BetterGAMUT\\obj\\",
+        "projectPath": "C:\\Users\\kubala.j\\Desktop\\BetterGAMUT\\BetterGAMUT\\BetterGAMUT.csproj",
+        "packagesPath": "C:\\Users\\kubala.j\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kubala.j\\Desktop\\BetterGAMUT\\BetterGAMUT\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\monic\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\kubala.j\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows"
+          "net6.0-windows7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://go.microsoft.com/fwlink/?LinkID=206669": {}
         },
         "frameworks": {
           "net6.0-windows7.0": {
@@ -38,13 +34,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net6.0-windows7.0": {
@@ -55,29 +45,10 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -86,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

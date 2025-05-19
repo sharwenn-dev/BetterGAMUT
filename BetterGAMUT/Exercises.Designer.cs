@@ -65,6 +65,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.ClientSize = new System.Drawing.Size(355, 235);
+            this.ControlBox = false;
             this.Controls.Add(this.button1);
             this.Controls.Add(this.home_1);
             this.Name = "Exercises";
