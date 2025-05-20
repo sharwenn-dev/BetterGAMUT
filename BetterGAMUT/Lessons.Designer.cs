@@ -50,7 +50,7 @@
             this.ControlBox = false;
             this.Controls.Add(this.home_2);
             this.Name = "Lessons";
-            this.Text = "Form3";
+            this.Text = "Lessons";
             this.ResumeLayout(false);
 
         }
