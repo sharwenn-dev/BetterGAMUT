@@ -13,6 +13,9 @@ namespace BetterGAMUT
     public partial class fretboardid : Form
     {
         private Form myParent;
+
+        public string Note { get; private set; }
+
         public fretboardid(Form myParent)
         {
             InitializeComponent();
@@ -42,11 +45,71 @@ namespace BetterGAMUT
             pictureBox1.Location = new Point(x, y);
             label1.Text = String.ToString();
             label2.Text = Fret.ToString();
-            var lst = new List<string> {"A", "A#", "B", "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B", "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#" };
-            for (int i = 0; i < Fret; i++) ;
+            var lst = new List<string> {
+                "A", "A#", "B", "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#",
+                "A", "A#", "B", "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#",
+                "A", "A#", "B", "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#"
+            };
+            int Thingy = 0;
+            if (String == 1) {Thingy = 7;};
+            if (String == 2) {Thingy = 0;};
+            if (String == 3) {Thingy = 5;};
+            if (String == 4) {Thingy = 10;};
+            if (String == 5) {Thingy = 2;};
+            if (String == 6) {Thingy = 7;};
+            string Note = lst[Fret - 1 + Thingy];
+            label3.Text = Note;
+        }
 
+        private void Abutton_Click(object sender, EventArgs e)
+        {
+            if (Note = Abutton.Text) { Thingy = 7; };
+        }
 
+        private void ASharp_Click(object sender, EventArgs e)
+        {
 
         }
-}
+
+        private void Bbutton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Cbutton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CSharp_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Dbutton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DSharp_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Ebutton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Gbutton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GSharp_Click(object sender, EventArgs e)
+        {
+
+        }
+
+    }
 }
