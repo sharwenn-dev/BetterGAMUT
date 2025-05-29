@@ -31,5 +31,12 @@ namespace BetterGAMUT
             frm.Show();
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            fretboardid frm = new fretboardid(this);
+            frm.Show();
+            this.Hide();
+        }
     }
 }
