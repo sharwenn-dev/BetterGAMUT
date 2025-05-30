@@ -14,8 +14,6 @@ namespace BetterGAMUT
     {
         private Form myParent;
 
-        public string Note { get; private set; }
-
         public fretboardid(Form myParent)
         {
             InitializeComponent();
@@ -33,7 +31,8 @@ namespace BetterGAMUT
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        string Note = "";
+        public void button1_Click(object sender, EventArgs e)
         {
             pictureBox1.Visible = true;
             int x = 4; int y = 48;
@@ -57,13 +56,16 @@ namespace BetterGAMUT
             if (String == 4) {Thingy = 10;};
             if (String == 5) {Thingy = 2;};
             if (String == 6) {Thingy = 7;};
-            string Note = lst[Fret - 1 + Thingy];
+            Note = lst[Fret - 1 + Thingy];
             label3.Text = Note;
         }
 
-        private void Abutton_Click(object sender, EventArgs e)
+   
+
+        public void Abutton_Click(object sender, EventArgs e)
         {
-            if (Note = Abutton.Text) { Thingy = 7; };
+            if (Abutton.Text == label3.Text) { Color = Color.Blue;}
+            
         }
 
         private void ASharp_Click(object sender, EventArgs e)
