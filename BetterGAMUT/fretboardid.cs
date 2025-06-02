@@ -58,14 +58,15 @@ namespace BetterGAMUT
             if (String == 6) {Thingy = 7;};
             Note = lst[Fret - 1 + Thingy];
             label3.Text = Note;
+
         }
 
    
 
         public void Abutton_Click(object sender, EventArgs e)
         {
-            if (Abutton.Text == label3.Text) { Color = Color.Blue;}
-            
+            if (Abutton.Text == label3.Text) { Abutton.BackColor = Color.Green; }
+            else {Abutton.BackColor = Color.Red; }
         }
 
         private void ASharp_Click(object sender, EventArgs e)

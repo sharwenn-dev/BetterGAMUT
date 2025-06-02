@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\huseman.o\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\huseman.o\\.nuget\\packages"
+      "C:\\Users\\kubala.j\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\kubala.j\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
