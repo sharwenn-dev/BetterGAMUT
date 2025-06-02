@@ -82,7 +82,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.home_1);
             this.Name = "Exercises";
-            this.Text = "Form2";
+            this.Text = "Exercises";
             this.ResumeLayout(false);
             this.PerformLayout();
 
