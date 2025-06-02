@@ -45,6 +45,9 @@
             this.Ebutton = new System.Windows.Forms.Button();
             this.DSharp = new System.Windows.Forms.Button();
             this.Dbutton = new System.Windows.Forms.Button();
+            this.Fbutton = new System.Windows.Forms.Button();
+            this.FSharp = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -79,12 +82,15 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 232);
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(30, 212);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(109, 41);
             this.button1.TabIndex = 3;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Text = "BEGIN";
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
@@ -95,6 +101,7 @@
             this.label1.Size = new System.Drawing.Size(38, 15);
             this.label1.TabIndex = 4;
             this.label1.Text = "label1";
+            this.label1.Visible = false;
             // 
             // label2
             // 
@@ -104,6 +111,7 @@
             this.label2.Size = new System.Drawing.Size(38, 15);
             this.label2.TabIndex = 5;
             this.label2.Text = "label2";
+            this.label2.Visible = false;
             // 
             // label3
             // 
@@ -113,116 +121,176 @@
             this.label3.Size = new System.Drawing.Size(38, 15);
             this.label3.TabIndex = 6;
             this.label3.Text = "label3";
+            this.label3.Visible = false;
             // 
             // Abutton
             // 
-            this.Abutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Abutton.Location = new System.Drawing.Point(209, 208);
+            this.Abutton.BackColor = System.Drawing.Color.Transparent;
+            this.Abutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Abutton.ForeColor = System.Drawing.Color.White;
+            this.Abutton.Location = new System.Drawing.Point(166, 208);
             this.Abutton.Name = "Abutton";
             this.Abutton.Size = new System.Drawing.Size(38, 23);
             this.Abutton.TabIndex = 7;
             this.Abutton.Text = "A";
-            this.Abutton.UseVisualStyleBackColor = true;
+            this.Abutton.UseVisualStyleBackColor = false;
             this.Abutton.Click += new System.EventHandler(this.Abutton_Click);
             // 
             // ASharp
             // 
-            this.ASharp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ASharp.Location = new System.Drawing.Point(253, 208);
+            this.ASharp.BackColor = System.Drawing.Color.Transparent;
+            this.ASharp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.ASharp.ForeColor = System.Drawing.Color.White;
+            this.ASharp.Location = new System.Drawing.Point(210, 208);
             this.ASharp.Name = "ASharp";
             this.ASharp.Size = new System.Drawing.Size(38, 23);
             this.ASharp.TabIndex = 8;
             this.ASharp.Text = "A#";
-            this.ASharp.UseVisualStyleBackColor = true;
+            this.ASharp.UseVisualStyleBackColor = false;
             this.ASharp.Click += new System.EventHandler(this.ASharp_Click);
             // 
             // Bbutton
             // 
-            this.Bbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bbutton.Location = new System.Drawing.Point(297, 208);
+            this.Bbutton.BackColor = System.Drawing.Color.Transparent;
+            this.Bbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Bbutton.ForeColor = System.Drawing.Color.White;
+            this.Bbutton.Location = new System.Drawing.Point(254, 208);
             this.Bbutton.Name = "Bbutton";
             this.Bbutton.Size = new System.Drawing.Size(38, 23);
             this.Bbutton.TabIndex = 9;
             this.Bbutton.Text = "B";
-            this.Bbutton.UseVisualStyleBackColor = true;
+            this.Bbutton.UseVisualStyleBackColor = false;
             this.Bbutton.Click += new System.EventHandler(this.Bbutton_Click);
             // 
             // Cbutton
             // 
-            this.Cbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Cbutton.Location = new System.Drawing.Point(341, 208);
+            this.Cbutton.BackColor = System.Drawing.Color.Transparent;
+            this.Cbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Cbutton.ForeColor = System.Drawing.Color.White;
+            this.Cbutton.Location = new System.Drawing.Point(298, 208);
             this.Cbutton.Name = "Cbutton";
             this.Cbutton.Size = new System.Drawing.Size(38, 23);
             this.Cbutton.TabIndex = 10;
             this.Cbutton.Text = "C";
-            this.Cbutton.UseVisualStyleBackColor = true;
+            this.Cbutton.UseVisualStyleBackColor = false;
             this.Cbutton.Click += new System.EventHandler(this.Cbutton_Click);
             // 
             // CSharp
             // 
-            this.CSharp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CSharp.Location = new System.Drawing.Point(384, 208);
+            this.CSharp.BackColor = System.Drawing.Color.Transparent;
+            this.CSharp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.CSharp.ForeColor = System.Drawing.Color.White;
+            this.CSharp.Location = new System.Drawing.Point(341, 208);
             this.CSharp.Name = "CSharp";
             this.CSharp.Size = new System.Drawing.Size(38, 23);
             this.CSharp.TabIndex = 11;
             this.CSharp.Text = "C#";
-            this.CSharp.UseVisualStyleBackColor = true;
+            this.CSharp.UseVisualStyleBackColor = false;
             this.CSharp.Click += new System.EventHandler(this.CSharp_Click);
             // 
             // GSharp
             // 
-            this.GSharp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.GSharp.Location = new System.Drawing.Point(384, 232);
+            this.GSharp.BackColor = System.Drawing.Color.Transparent;
+            this.GSharp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.GSharp.ForeColor = System.Drawing.Color.White;
+            this.GSharp.Location = new System.Drawing.Point(384, 234);
             this.GSharp.Name = "GSharp";
             this.GSharp.Size = new System.Drawing.Size(38, 23);
             this.GSharp.TabIndex = 16;
             this.GSharp.Text = "G#";
-            this.GSharp.UseVisualStyleBackColor = true;
+            this.GSharp.UseVisualStyleBackColor = false;
             this.GSharp.Click += new System.EventHandler(this.GSharp_Click);
             // 
             // Gbutton
             // 
-            this.Gbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Gbutton.Location = new System.Drawing.Point(341, 232);
+            this.Gbutton.BackColor = System.Drawing.Color.Transparent;
+            this.Gbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Gbutton.ForeColor = System.Drawing.Color.White;
+            this.Gbutton.Location = new System.Drawing.Point(341, 234);
             this.Gbutton.Name = "Gbutton";
             this.Gbutton.Size = new System.Drawing.Size(38, 23);
             this.Gbutton.TabIndex = 15;
             this.Gbutton.Text = "G";
-            this.Gbutton.UseVisualStyleBackColor = true;
+            this.Gbutton.UseVisualStyleBackColor = false;
             this.Gbutton.Click += new System.EventHandler(this.Gbutton_Click);
             // 
             // Ebutton
             // 
-            this.Ebutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Ebutton.Location = new System.Drawing.Point(297, 232);
+            this.Ebutton.BackColor = System.Drawing.Color.Transparent;
+            this.Ebutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Ebutton.ForeColor = System.Drawing.Color.White;
+            this.Ebutton.Location = new System.Drawing.Point(210, 234);
             this.Ebutton.Name = "Ebutton";
             this.Ebutton.Size = new System.Drawing.Size(38, 23);
             this.Ebutton.TabIndex = 14;
             this.Ebutton.Text = "E";
-            this.Ebutton.UseVisualStyleBackColor = true;
+            this.Ebutton.UseVisualStyleBackColor = false;
             this.Ebutton.Click += new System.EventHandler(this.Ebutton_Click);
             // 
             // DSharp
             // 
-            this.DSharp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.DSharp.Location = new System.Drawing.Point(253, 232);
+            this.DSharp.BackColor = System.Drawing.Color.Transparent;
+            this.DSharp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.DSharp.ForeColor = System.Drawing.Color.White;
+            this.DSharp.Location = new System.Drawing.Point(166, 234);
             this.DSharp.Name = "DSharp";
             this.DSharp.Size = new System.Drawing.Size(38, 23);
             this.DSharp.TabIndex = 13;
             this.DSharp.Text = "D#";
-            this.DSharp.UseVisualStyleBackColor = true;
+            this.DSharp.UseVisualStyleBackColor = false;
             this.DSharp.Click += new System.EventHandler(this.DSharp_Click);
             // 
             // Dbutton
             // 
-            this.Dbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Dbutton.Location = new System.Drawing.Point(209, 232);
+            this.Dbutton.BackColor = System.Drawing.Color.Transparent;
+            this.Dbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Dbutton.ForeColor = System.Drawing.Color.White;
+            this.Dbutton.Location = new System.Drawing.Point(384, 208);
             this.Dbutton.Name = "Dbutton";
             this.Dbutton.Size = new System.Drawing.Size(38, 23);
             this.Dbutton.TabIndex = 12;
             this.Dbutton.Text = "D";
-            this.Dbutton.UseVisualStyleBackColor = true;
+            this.Dbutton.UseVisualStyleBackColor = false;
             this.Dbutton.Click += new System.EventHandler(this.Dbutton_Click);
+            // 
+            // Fbutton
+            // 
+            this.Fbutton.BackColor = System.Drawing.Color.Transparent;
+            this.Fbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Fbutton.ForeColor = System.Drawing.Color.White;
+            this.Fbutton.Location = new System.Drawing.Point(254, 234);
+            this.Fbutton.Name = "Fbutton";
+            this.Fbutton.Size = new System.Drawing.Size(38, 23);
+            this.Fbutton.TabIndex = 17;
+            this.Fbutton.Text = "F";
+            this.Fbutton.UseVisualStyleBackColor = false;
+            this.Fbutton.Click += new System.EventHandler(this.Fbutton_Click);
+            // 
+            // FSharp
+            // 
+            this.FSharp.BackColor = System.Drawing.Color.Transparent;
+            this.FSharp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.FSharp.ForeColor = System.Drawing.Color.White;
+            this.FSharp.Location = new System.Drawing.Point(297, 234);
+            this.FSharp.Name = "FSharp";
+            this.FSharp.Size = new System.Drawing.Size(38, 23);
+            this.FSharp.TabIndex = 18;
+            this.FSharp.Text = "F#";
+            this.FSharp.UseVisualStyleBackColor = false;
+            this.FSharp.Click += new System.EventHandler(this.FSharp_Click);
+            // 
+            // label4
+            // 
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(359, 12);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(64, 28);
+            this.label4.TabIndex = 19;
+            this.label4.Text = "0/0";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // fretboardid
             // 
@@ -232,6 +300,9 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(434, 261);
             this.ControlBox = false;
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.FSharp);
+            this.Controls.Add(this.Fbutton);
             this.Controls.Add(this.GSharp);
             this.Controls.Add(this.Gbutton);
             this.Controls.Add(this.Ebutton);
@@ -275,5 +346,8 @@
         private Button Ebutton;
         private Button DSharp;
         private Button Dbutton;
+        private Button Fbutton;
+        private Button FSharp;
+        private Label label4;
     }
 }
