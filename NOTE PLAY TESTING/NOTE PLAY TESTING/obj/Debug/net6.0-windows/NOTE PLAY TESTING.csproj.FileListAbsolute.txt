@@ -1,0 +1,25 @@
+C:\Users\kubala.j\Desktop\BetterGAMUT\NOTE PLAY TESTING\NOTE PLAY TESTING\obj\Debug\net6.0-windows\NOTE PLAY TESTING.csproj.AssemblyReference.cache
+C:\Users\kubala.j\Desktop\BetterGAMUT\NOTE PLAY TESTING\NOTE PLAY TESTING\obj\Debug\net6.0-windows\Demo.Form1.resources
+C:\Users\kubala.j\Desktop\BetterGAMUT\NOTE PLAY TESTING\NOTE PLAY TESTING\obj\Debug\net6.0-windows\NOTE PLAY TESTING.csproj.GenerateResource.cache
+C:\Users\kubala.j\Desktop\BetterGAMUT\NOTE PLAY TESTING\NOTE PLAY TESTING\obj\Debug\net6.0-windows\NOTE PLAY TESTING.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kubala.j\Desktop\BetterGAMUT\NOTE PLAY TESTING\NOTE PLAY TESTING\obj\Debug\net6.0-windows\NOTE PLAY TESTING.AssemblyInfoInputs.cache
+C:\Users\kubala.j\Desktop\BetterGAMUT\NOTE PLAY TESTING\NOTE PLAY TESTING\obj\Debug\net6.0-windows\NOTE PLAY TESTING.AssemblyInfo.cs
+C:\Users\kubala.j\Desktop\BetterGAMUT\NOTE PLAY TESTING\NOTE PLAY TESTING\obj\Debug\net6.0-windows\NOTE PLAY TESTING.csproj.CoreCompileInputs.cache
+C:\Users\kubala.j\Desktop\BetterGAMUT\NOTE PLAY TESTING\NOTE PLAY TESTING\bin\Debug\net6.0-windows\NOTE PLAY TESTING.exe
+C:\Users\kubala.j\Desktop\BetterGAMUT\NOTE PLAY TESTING\NOTE PLAY TESTING\bin\Debug\net6.0-windows\NOTE PLAY TESTING.deps.json
+C:\Users\kubala.j\Desktop\BetterGAMUT\NOTE PLAY TESTING\NOTE PLAY TESTING\bin\Debug\net6.0-windows\NOTE PLAY TESTING.runtimeconfig.json
+C:\Users\kubala.j\Desktop\BetterGAMUT\NOTE PLAY TESTING\NOTE PLAY TESTING\bin\Debug\net6.0-windows\NOTE PLAY TESTING.dll
+C:\Users\kubala.j\Desktop\BetterGAMUT\NOTE PLAY TESTING\NOTE PLAY TESTING\bin\Debug\net6.0-windows\ref\NOTE PLAY TESTING.dll
+C:\Users\kubala.j\Desktop\BetterGAMUT\NOTE PLAY TESTING\NOTE PLAY TESTING\bin\Debug\net6.0-windows\NOTE PLAY TESTING.pdb
+C:\Users\kubala.j\Desktop\BetterGAMUT\NOTE PLAY TESTING\NOTE PLAY TESTING\bin\Debug\net6.0-windows\NAudio.dll
+C:\Users\kubala.j\Desktop\BetterGAMUT\NOTE PLAY TESTING\NOTE PLAY TESTING\bin\Debug\net6.0-windows\NAudio.Asio.dll
+C:\Users\kubala.j\Desktop\BetterGAMUT\NOTE PLAY TESTING\NOTE PLAY TESTING\bin\Debug\net6.0-windows\NAudio.Core.dll
+C:\Users\kubala.j\Desktop\BetterGAMUT\NOTE PLAY TESTING\NOTE PLAY TESTING\bin\Debug\net6.0-windows\NAudio.Midi.dll
+C:\Users\kubala.j\Desktop\BetterGAMUT\NOTE PLAY TESTING\NOTE PLAY TESTING\bin\Debug\net6.0-windows\NAudio.Wasapi.dll
+C:\Users\kubala.j\Desktop\BetterGAMUT\NOTE PLAY TESTING\NOTE PLAY TESTING\bin\Debug\net6.0-windows\NAudio.WinForms.dll
+C:\Users\kubala.j\Desktop\BetterGAMUT\NOTE PLAY TESTING\NOTE PLAY TESTING\bin\Debug\net6.0-windows\NAudio.WinMM.dll
+C:\Users\kubala.j\Desktop\BetterGAMUT\NOTE PLAY TESTING\NOTE PLAY TESTING\obj\Debug\net6.0-windows\NOTE PLAY TESTING.csproj.CopyComplete
+C:\Users\kubala.j\Desktop\BetterGAMUT\NOTE PLAY TESTING\NOTE PLAY TESTING\obj\Debug\net6.0-windows\NOTE PLAY TESTING.dll
+C:\Users\kubala.j\Desktop\BetterGAMUT\NOTE PLAY TESTING\NOTE PLAY TESTING\obj\Debug\net6.0-windows\ref\NOTE PLAY TESTING.dll
+C:\Users\kubala.j\Desktop\BetterGAMUT\NOTE PLAY TESTING\NOTE PLAY TESTING\obj\Debug\net6.0-windows\NOTE PLAY TESTING.pdb
+C:\Users\kubala.j\Desktop\BetterGAMUT\NOTE PLAY TESTING\NOTE PLAY TESTING\obj\Debug\net6.0-windows\NOTE PLAY TESTING.genruntimeconfig.cache

@@ -48,6 +48,7 @@
             this.Fbutton = new System.Windows.Forms.Button();
             this.FSharp = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -96,7 +97,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(133, 24);
+            this.label1.Location = new System.Drawing.Point(166, 190);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(38, 15);
             this.label1.TabIndex = 4;
@@ -106,7 +107,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(209, 24);
+            this.label2.Location = new System.Drawing.Point(242, 190);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(38, 15);
             this.label2.TabIndex = 5;
@@ -116,7 +117,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(284, 24);
+            this.label3.Location = new System.Drawing.Point(317, 190);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(38, 15);
             this.label3.TabIndex = 6;
@@ -128,7 +129,7 @@
             this.Abutton.BackColor = System.Drawing.Color.Transparent;
             this.Abutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Abutton.ForeColor = System.Drawing.Color.White;
-            this.Abutton.Location = new System.Drawing.Point(166, 208);
+            this.Abutton.Location = new System.Drawing.Point(164, 208);
             this.Abutton.Name = "Abutton";
             this.Abutton.Size = new System.Drawing.Size(38, 23);
             this.Abutton.TabIndex = 7;
@@ -141,7 +142,7 @@
             this.ASharp.BackColor = System.Drawing.Color.Transparent;
             this.ASharp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.ASharp.ForeColor = System.Drawing.Color.White;
-            this.ASharp.Location = new System.Drawing.Point(210, 208);
+            this.ASharp.Location = new System.Drawing.Point(208, 208);
             this.ASharp.Name = "ASharp";
             this.ASharp.Size = new System.Drawing.Size(38, 23);
             this.ASharp.TabIndex = 8;
@@ -154,7 +155,7 @@
             this.Bbutton.BackColor = System.Drawing.Color.Transparent;
             this.Bbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Bbutton.ForeColor = System.Drawing.Color.White;
-            this.Bbutton.Location = new System.Drawing.Point(254, 208);
+            this.Bbutton.Location = new System.Drawing.Point(252, 208);
             this.Bbutton.Name = "Bbutton";
             this.Bbutton.Size = new System.Drawing.Size(38, 23);
             this.Bbutton.TabIndex = 9;
@@ -167,7 +168,7 @@
             this.Cbutton.BackColor = System.Drawing.Color.Transparent;
             this.Cbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Cbutton.ForeColor = System.Drawing.Color.White;
-            this.Cbutton.Location = new System.Drawing.Point(298, 208);
+            this.Cbutton.Location = new System.Drawing.Point(296, 208);
             this.Cbutton.Name = "Cbutton";
             this.Cbutton.Size = new System.Drawing.Size(38, 23);
             this.Cbutton.TabIndex = 10;
@@ -180,7 +181,7 @@
             this.CSharp.BackColor = System.Drawing.Color.Transparent;
             this.CSharp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.CSharp.ForeColor = System.Drawing.Color.White;
-            this.CSharp.Location = new System.Drawing.Point(341, 208);
+            this.CSharp.Location = new System.Drawing.Point(340, 208);
             this.CSharp.Name = "CSharp";
             this.CSharp.Size = new System.Drawing.Size(38, 23);
             this.CSharp.TabIndex = 11;
@@ -206,7 +207,7 @@
             this.Gbutton.BackColor = System.Drawing.Color.Transparent;
             this.Gbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Gbutton.ForeColor = System.Drawing.Color.White;
-            this.Gbutton.Location = new System.Drawing.Point(341, 234);
+            this.Gbutton.Location = new System.Drawing.Point(340, 234);
             this.Gbutton.Name = "Gbutton";
             this.Gbutton.Size = new System.Drawing.Size(38, 23);
             this.Gbutton.TabIndex = 15;
@@ -219,7 +220,7 @@
             this.Ebutton.BackColor = System.Drawing.Color.Transparent;
             this.Ebutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Ebutton.ForeColor = System.Drawing.Color.White;
-            this.Ebutton.Location = new System.Drawing.Point(210, 234);
+            this.Ebutton.Location = new System.Drawing.Point(208, 234);
             this.Ebutton.Name = "Ebutton";
             this.Ebutton.Size = new System.Drawing.Size(38, 23);
             this.Ebutton.TabIndex = 14;
@@ -232,7 +233,7 @@
             this.DSharp.BackColor = System.Drawing.Color.Transparent;
             this.DSharp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.DSharp.ForeColor = System.Drawing.Color.White;
-            this.DSharp.Location = new System.Drawing.Point(166, 234);
+            this.DSharp.Location = new System.Drawing.Point(164, 234);
             this.DSharp.Name = "DSharp";
             this.DSharp.Size = new System.Drawing.Size(38, 23);
             this.DSharp.TabIndex = 13;
@@ -258,7 +259,7 @@
             this.Fbutton.BackColor = System.Drawing.Color.Transparent;
             this.Fbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Fbutton.ForeColor = System.Drawing.Color.White;
-            this.Fbutton.Location = new System.Drawing.Point(254, 234);
+            this.Fbutton.Location = new System.Drawing.Point(252, 234);
             this.Fbutton.Name = "Fbutton";
             this.Fbutton.Size = new System.Drawing.Size(38, 23);
             this.Fbutton.TabIndex = 17;
@@ -271,7 +272,7 @@
             this.FSharp.BackColor = System.Drawing.Color.Transparent;
             this.FSharp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.FSharp.ForeColor = System.Drawing.Color.White;
-            this.FSharp.Location = new System.Drawing.Point(297, 234);
+            this.FSharp.Location = new System.Drawing.Point(296, 234);
             this.FSharp.Name = "FSharp";
             this.FSharp.Size = new System.Drawing.Size(38, 23);
             this.FSharp.TabIndex = 18;
@@ -292,6 +293,19 @@
             this.label4.Text = "0/0";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label5
+            // 
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label5.Font = new System.Drawing.Font("Myanmar Text", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(97, 12);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(237, 28);
+            this.label5.TabIndex = 20;
+            this.label5.Text = "Note Identification";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // fretboardid
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -300,6 +314,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(434, 261);
             this.ControlBox = false;
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.FSharp);
             this.Controls.Add(this.Fbutton);
@@ -349,5 +364,6 @@
         private Button Fbutton;
         private Button FSharp;
         private Label label4;
+        private Label label5;
     }
 }

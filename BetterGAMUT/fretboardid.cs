@@ -7,12 +7,49 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using NAudio.Midi;
 
 namespace BetterGAMUT
 {
     public partial class fretboardid : Form
     {
         private Form myParent;
+
+        // COPY THE WHOLE BLOCK OF CODE BELOW
+
+        static Dictionary<string, int> noteOffsets =
+           new Dictionary<string, int>(StringComparer.OrdinalIgnoreCase) {
+            { "C", 0 },   { "C#", 1 }, { "Db", 1 },
+            { "D", 2 },   { "D#", 3 }, { "Eb", 3 },
+            { "E", 4 },   { "F",  5 }, { "F#", 6 },
+            { "Gb", 6 },  { "G",  7 }, { "G#", 8 },
+            { "Ab", 8 },  { "A",  9 }, { "A#", 10 },
+            { "Bb", 10 }, { "B", 11 },
+        };
+        public static void PlayNoteName(string noteName = "C#")
+        {
+            int baseOctave = 4;  // Middle C = C4 = MIDI 60
+            int baseNote = 12 * (baseOctave + 1);  // C4 = MIDI 60
+
+            if (!noteOffsets.TryGetValue(noteName, out int offset))
+            {
+                Console.WriteLine($"Invalid note name: {noteName}");
+                return;
+            }
+
+            int midiNote = baseNote + offset;  // E.g., Ab4 = 68
+            int velocity = 127;
+            int durationMs = 1000;
+
+            using (var midiOut = new MidiOut(0))
+            {  // 0 = first MIDI device
+                midiOut.Send(MidiMessage.StartNote(midiNote, velocity, 1).RawData);
+                Thread.Sleep(durationMs);
+                midiOut.Send(MidiMessage.StopNote(midiNote, 0, 1).RawData);
+            }
+        }
+
+        // COPY THE WHOLE BLOCK OF CODE ABOVE
 
         public fretboardid(Form myParent)
         {
@@ -81,73 +118,97 @@ namespace BetterGAMUT
 
         public void Abutton_Click(object sender, EventArgs e)
         {
-            if (Abutton.Text == label3.Text) { Abutton.BackColor = Color.Green; Correct += 1;  Total += 1; }
+            if (Abutton.Text == label3.Text) { Abutton.BackColor = Color.Green; Correct += 1;  Total += 1;
+                PlayNoteName("A");
+            }
             else {Abutton.BackColor = Color.Red; Total += 1; }
         }
 
         private void ASharp_Click(object sender, EventArgs e)
         {
-            if (ASharp.Text == label3.Text) { ASharp.BackColor = Color.Green; Correct += 1; Total += 1; }
+            if (ASharp.Text == label3.Text) { ASharp.BackColor = Color.Green; Correct += 1; Total += 1;
+                PlayNoteName("A#");
+            }
             else { ASharp.BackColor = Color.Red; Total += 1; }
         }
 
         private void Bbutton_Click(object sender, EventArgs e)
         {
-            if (Bbutton.Text == label3.Text) { Bbutton.BackColor = Color.Green; Correct += 1; Total += 1; }
+            if (Bbutton.Text == label3.Text) { Bbutton.BackColor = Color.Green; Correct += 1; Total += 1;
+                PlayNoteName("B");
+            }
             else { Bbutton.BackColor = Color.Red; Total += 1; }
         }
 
         private void Cbutton_Click(object sender, EventArgs e)
         {
-            if (Cbutton.Text == label3.Text) { Cbutton.BackColor = Color.Green; Correct += 1; Total += 1; }
+            if (Cbutton.Text == label3.Text) { Cbutton.BackColor = Color.Green; Correct += 1; Total += 1;
+                PlayNoteName("C");
+            }
             else { Cbutton.BackColor = Color.Red; Total += 1; }
         }
 
         private void CSharp_Click(object sender, EventArgs e)
         {
-            if (CSharp.Text == label3.Text) { CSharp.BackColor = Color.Green; Correct += 1; Total += 1; }
+            if (CSharp.Text == label3.Text) { CSharp.BackColor = Color.Green; Correct += 1; Total += 1;
+                PlayNoteName("C#");
+            }
             else { CSharp.BackColor = Color.Red; Total += 1; }
         }
 
         private void Dbutton_Click(object sender, EventArgs e)
         {
-            if (Dbutton.Text == label3.Text) { Dbutton.BackColor = Color.Green; Correct += 1; Total += 1; }
+            if (Dbutton.Text == label3.Text) { Dbutton.BackColor = Color.Green; Correct += 1; Total += 1;
+                PlayNoteName("D");
+            }
             else { Dbutton.BackColor = Color.Red; Total += 1; }
         }
 
         private void DSharp_Click(object sender, EventArgs e)
         {
-            if (DSharp.Text == label3.Text) { DSharp.BackColor = Color.Green; Correct += 1; Total += 1; }
+            if (DSharp.Text == label3.Text) { DSharp.BackColor = Color.Green; Correct += 1; Total += 1;
+                PlayNoteName("D#");
+            }
             else { DSharp.BackColor = Color.Red; Total += 1; }
         }
 
         private void Ebutton_Click(object sender, EventArgs e)
         {
-            if (Ebutton.Text == label3.Text) { Ebutton.BackColor = Color.Green; Correct += 1; Total += 1; }
+            if (Ebutton.Text == label3.Text) { Ebutton.BackColor = Color.Green; Correct += 1; Total += 1;
+                PlayNoteName("E");
+            }
             else { Ebutton.BackColor = Color.Red; Total += 1; }
         }
 
         private void Gbutton_Click(object sender, EventArgs e)
         {
-            if (Gbutton.Text == label3.Text) { Gbutton.BackColor = Color.Green; Correct += 1; Total += 1; }
+            if (Gbutton.Text == label3.Text) { Gbutton.BackColor = Color.Green; Correct += 1; Total += 1;
+                PlayNoteName("G");
+            }
             else { Gbutton.BackColor = Color.Red; Total += 1; }
         }
 
         private void GSharp_Click(object sender, EventArgs e)
         {
-            if (GSharp.Text == label3.Text) { GSharp.BackColor = Color.Green; Correct += 1; Total += 1; }
+            if (GSharp.Text == label3.Text) { GSharp.BackColor = Color.Green; Correct += 1; Total += 1;
+                PlayNoteName("G#");
+            }
             else { GSharp.BackColor = Color.Red; Total += 1; }
         }
 
         private void Fbutton_Click(object sender, EventArgs e)
         {
-            if (Fbutton.Text == label3.Text) { Fbutton.BackColor = Color.Green; Correct += 1; Total += 1; }
+            if (Fbutton.Text == label3.Text) { Fbutton.BackColor = Color.Green; Correct += 1; Total += 1;
+                PlayNoteName("F");
+            }
             else { Fbutton.BackColor = Color.Red; Total += 1; }
         }
 
         private void FSharp_Click(object sender, EventArgs e)
         {
-            if (FSharp.Text == label3.Text) { FSharp.BackColor = Color.Green; Correct += 1; Total += 1; }
+            if (FSharp.Text == label3.Text) { FSharp.BackColor = Color.Green; Correct += 1; Total += 1;
+                PlayNoteName("F#");
+            }
             else { FSharp.BackColor = Color.Red; Total += 1; }
         }
     }

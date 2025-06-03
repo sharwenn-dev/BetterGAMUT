@@ -42,3 +42,11 @@ C:\Users\monic\Documents\GitHub\BetterGAMUT\BetterGAMUT\obj\Debug\net6.0-windows
 C:\Users\monic\Documents\GitHub\BetterGAMUT\BetterGAMUT\obj\Debug\net6.0-windows\BetterGAMUT.genruntimeconfig.cache
 C:\Users\monic\Documents\GitHub\BetterGAMUT\BetterGAMUT\obj\Debug\net6.0-windows\ref\BetterGAMUT.dll
 C:\Users\kubala.j\Desktop\BetterGAMUT\BetterGAMUT\obj\Debug\net6.0-windows\BetterGAMUT.fretboardid.resources
+C:\Users\kubala.j\Desktop\BetterGAMUT\BetterGAMUT\bin\Debug\net6.0-windows\NAudio.dll
+C:\Users\kubala.j\Desktop\BetterGAMUT\BetterGAMUT\bin\Debug\net6.0-windows\NAudio.Asio.dll
+C:\Users\kubala.j\Desktop\BetterGAMUT\BetterGAMUT\bin\Debug\net6.0-windows\NAudio.Core.dll
+C:\Users\kubala.j\Desktop\BetterGAMUT\BetterGAMUT\bin\Debug\net6.0-windows\NAudio.Midi.dll
+C:\Users\kubala.j\Desktop\BetterGAMUT\BetterGAMUT\bin\Debug\net6.0-windows\NAudio.Wasapi.dll
+C:\Users\kubala.j\Desktop\BetterGAMUT\BetterGAMUT\bin\Debug\net6.0-windows\NAudio.WinForms.dll
+C:\Users\kubala.j\Desktop\BetterGAMUT\BetterGAMUT\bin\Debug\net6.0-windows\NAudio.WinMM.dll
+C:\Users\kubala.j\Desktop\BetterGAMUT\BetterGAMUT\obj\Debug\net6.0-windows\BetterGAMUT.csproj.CopyComplete
