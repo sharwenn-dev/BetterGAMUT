@@ -1,21 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\monic\\Documents\\GitHub\\BetterGAMUT\\",
+  "WorkspaceRootPath": "C:\\Users\\magni\\Desktop\\BetterGAMUT\\BetterGAMUT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{15EFBF8C-CF48-4C3D-A1E7-F0A074FF197B}|BetterGAMUT\\BetterGAMUT.csproj|c:\\users\\monic\\documents\\github\\bettergamut\\bettergamut\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{15EFBF8C-CF48-4C3D-A1E7-F0A074FF197B}|BetterGAMUT\\BetterGAMUT.csproj|solutionrelative:bettergamut\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{15EFBF8C-CF48-4C3D-A1E7-F0A074FF197B}|BetterGAMUT\\BetterGAMUT.csproj|C:\\Users\\magni\\Desktop\\BetterGAMUT\\BetterGAMUT\\bettergamut\\fretboardid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{15EFBF8C-CF48-4C3D-A1E7-F0A074FF197B}|BetterGAMUT\\BetterGAMUT.csproj|solutionrelative:bettergamut\\fretboardid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15EFBF8C-CF48-4C3D-A1E7-F0A074FF197B}|BetterGAMUT\\BetterGAMUT.csproj|C:\\Users\\monic\\Documents\\GitHub\\BetterGAMUT\\bettergamut\\exercises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{15EFBF8C-CF48-4C3D-A1E7-F0A074FF197B}|BetterGAMUT\\BetterGAMUT.csproj|C:\\Users\\magni\\Desktop\\BetterGAMUT\\BetterGAMUT\\bettergamut\\exercises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{15EFBF8C-CF48-4C3D-A1E7-F0A074FF197B}|BetterGAMUT\\BetterGAMUT.csproj|solutionrelative:bettergamut\\exercises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15EFBF8C-CF48-4C3D-A1E7-F0A074FF197B}|BetterGAMUT\\BetterGAMUT.csproj|C:\\Users\\monic\\Documents\\GitHub\\BetterGAMUT\\bettergamut\\lessons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{15EFBF8C-CF48-4C3D-A1E7-F0A074FF197B}|BetterGAMUT\\BetterGAMUT.csproj|C:\\Users\\magni\\Desktop\\BetterGAMUT\\BetterGAMUT\\bettergamut\\lessons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{15EFBF8C-CF48-4C3D-A1E7-F0A074FF197B}|BetterGAMUT\\BetterGAMUT.csproj|solutionrelative:bettergamut\\lessons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15EFBF8C-CF48-4C3D-A1E7-F0A074FF197B}|BetterGAMUT\\BetterGAMUT.csproj|c:\\users\\monic\\documents\\github\\bettergamut\\bettergamut\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{15EFBF8C-CF48-4C3D-A1E7-F0A074FF197B}|BetterGAMUT\\BetterGAMUT.csproj|c:\\users\\magni\\desktop\\bettergamut\\bettergamut\\bettergamut\\fretboardid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15EFBF8C-CF48-4C3D-A1E7-F0A074FF197B}|BetterGAMUT\\BetterGAMUT.csproj|solutionrelative:bettergamut\\fretboardid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15EFBF8C-CF48-4C3D-A1E7-F0A074FF197B}|BetterGAMUT\\BetterGAMUT.csproj|c:\\users\\magni\\desktop\\bettergamut\\bettergamut\\bettergamut\\staffnoteid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15EFBF8C-CF48-4C3D-A1E7-F0A074FF197B}|BetterGAMUT\\BetterGAMUT.csproj|solutionrelative:bettergamut\\staffnoteid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15EFBF8C-CF48-4C3D-A1E7-F0A074FF197B}|BetterGAMUT\\BetterGAMUT.csproj|C:\\Users\\magni\\Desktop\\BetterGAMUT\\BetterGAMUT\\bettergamut\\staffnoteid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{15EFBF8C-CF48-4C3D-A1E7-F0A074FF197B}|BetterGAMUT\\BetterGAMUT.csproj|solutionrelative:bettergamut\\staffnoteid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15EFBF8C-CF48-4C3D-A1E7-F0A074FF197B}|BetterGAMUT\\BetterGAMUT.csproj|C:\\Users\\magni\\Desktop\\BetterGAMUT\\BetterGAMUT\\bettergamut\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{15EFBF8C-CF48-4C3D-A1E7-F0A074FF197B}|BetterGAMUT\\BetterGAMUT.csproj|solutionrelative:bettergamut\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15EFBF8C-CF48-4C3D-A1E7-F0A074FF197B}|BetterGAMUT\\BetterGAMUT.csproj|c:\\users\\magni\\desktop\\bettergamut\\bettergamut\\bettergamut\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15EFBF8C-CF48-4C3D-A1E7-F0A074FF197B}|BetterGAMUT\\BetterGAMUT.csproj|solutionrelative:bettergamut\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,11 +46,61 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "staffnoteid.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\magni\\Desktop\\BetterGAMUT\\BetterGAMUT\\BetterGAMUT\\staffnoteid.cs",
+              "RelativeDocumentMoniker": "BetterGAMUT\\staffnoteid.cs",
+              "ToolTip": "C:\\Users\\magni\\Desktop\\BetterGAMUT\\BetterGAMUT\\BetterGAMUT\\staffnoteid.cs [Design]",
+              "RelativeToolTip": "BetterGAMUT\\staffnoteid.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T03:33:30.981Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "staffnoteid.cs",
+              "DocumentMoniker": "C:\\Users\\magni\\Desktop\\BetterGAMUT\\BetterGAMUT\\BetterGAMUT\\staffnoteid.cs",
+              "RelativeDocumentMoniker": "BetterGAMUT\\staffnoteid.cs",
+              "ToolTip": "C:\\Users\\magni\\Desktop\\BetterGAMUT\\BetterGAMUT\\BetterGAMUT\\staffnoteid.cs",
+              "RelativeToolTip": "BetterGAMUT\\staffnoteid.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAIwK8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T03:24:11.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "fretboardid.cs",
+              "DocumentMoniker": "C:\\Users\\magni\\Desktop\\BetterGAMUT\\BetterGAMUT\\BetterGAMUT\\fretboardid.cs",
+              "RelativeDocumentMoniker": "BetterGAMUT\\fretboardid.cs",
+              "ToolTip": "C:\\Users\\magni\\Desktop\\BetterGAMUT\\BetterGAMUT\\BetterGAMUT\\fretboardid.cs",
+              "RelativeToolTip": "BetterGAMUT\\fretboardid.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAgwIAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T03:13:00.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "fretboardid.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\magni\\Desktop\\BetterGAMUT\\BetterGAMUT\\BetterGAMUT\\fretboardid.cs",
+              "RelativeDocumentMoniker": "BetterGAMUT\\fretboardid.cs",
+              "ToolTip": "C:\\Users\\magni\\Desktop\\BetterGAMUT\\BetterGAMUT\\BetterGAMUT\\fretboardid.cs [Design]",
+              "RelativeToolTip": "BetterGAMUT\\fretboardid.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T03:10:06.617Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Index.cs",
-              "DocumentMoniker": "C:\\Users\\monic\\Documents\\GitHub\\BetterGAMUT\\BetterGAMUT\\Index.cs",
+              "DocumentMoniker": "C:\\Users\\magni\\Desktop\\BetterGAMUT\\BetterGAMUT\\BetterGAMUT\\Index.cs",
               "RelativeDocumentMoniker": "BetterGAMUT\\Index.cs",
-              "ToolTip": "C:\\Users\\monic\\Documents\\GitHub\\BetterGAMUT\\BetterGAMUT\\Index.cs",
+              "ToolTip": "C:\\Users\\magni\\Desktop\\BetterGAMUT\\BetterGAMUT\\BetterGAMUT\\Index.cs",
               "RelativeToolTip": "BetterGAMUT\\Index.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAewCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -45,9 +111,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Exercises.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\monic\\Documents\\GitHub\\BetterGAMUT\\BetterGAMUT\\Exercises.cs",
+              "DocumentMoniker": "C:\\Users\\magni\\Desktop\\BetterGAMUT\\BetterGAMUT\\BetterGAMUT\\Exercises.cs",
               "RelativeDocumentMoniker": "BetterGAMUT\\Exercises.cs",
-              "ToolTip": "C:\\Users\\monic\\Documents\\GitHub\\BetterGAMUT\\BetterGAMUT\\Exercises.cs [Design]",
+              "ToolTip": "C:\\Users\\magni\\Desktop\\BetterGAMUT\\BetterGAMUT\\BetterGAMUT\\Exercises.cs [Design]",
               "RelativeToolTip": "BetterGAMUT\\Exercises.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T19:42:20.707Z",
@@ -57,9 +123,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Lessons.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\monic\\Documents\\GitHub\\BetterGAMUT\\BetterGAMUT\\Lessons.cs",
+              "DocumentMoniker": "C:\\Users\\magni\\Desktop\\BetterGAMUT\\BetterGAMUT\\BetterGAMUT\\Lessons.cs",
               "RelativeDocumentMoniker": "BetterGAMUT\\Lessons.cs",
-              "ToolTip": "C:\\Users\\monic\\Documents\\GitHub\\BetterGAMUT\\BetterGAMUT\\Lessons.cs [Design]",
+              "ToolTip": "C:\\Users\\magni\\Desktop\\BetterGAMUT\\BetterGAMUT\\BetterGAMUT\\Lessons.cs [Design]",
               "RelativeToolTip": "BetterGAMUT\\Lessons.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T19:42:17.228Z",
@@ -67,15 +133,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Index.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\monic\\Documents\\GitHub\\BetterGAMUT\\BetterGAMUT\\Index.cs",
+              "DocumentMoniker": "C:\\Users\\magni\\Desktop\\BetterGAMUT\\BetterGAMUT\\BetterGAMUT\\Index.cs",
               "RelativeDocumentMoniker": "BetterGAMUT\\Index.cs",
-              "ToolTip": "C:\\Users\\monic\\Documents\\GitHub\\BetterGAMUT\\BetterGAMUT\\Index.cs [Design]",
+              "ToolTip": "C:\\Users\\magni\\Desktop\\BetterGAMUT\\BetterGAMUT\\BetterGAMUT\\Index.cs [Design]",
               "RelativeToolTip": "BetterGAMUT\\Index.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T18:28:32.553Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-18T18:28:32.553Z"
             }
           ]
         }

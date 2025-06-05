@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BetterGAMUT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d94b652d220e2ac0073cdabaf3ad8f1d33dba4b3")]
 [assembly: System.Reflection.AssemblyProductAttribute("BetterGAMUT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BetterGAMUT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -28,30 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.home_2 = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            home_2 = new Button();
+            SuspendLayout();
             // 
             // home_2
             // 
-            this.home_2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.home_2.Location = new System.Drawing.Point(12, 12);
-            this.home_2.Name = "home_2";
-            this.home_2.Size = new System.Drawing.Size(70, 30);
-            this.home_2.TabIndex = 0;
-            this.home_2.Text = "Home";
-            this.home_2.UseVisualStyleBackColor = true;
-            this.home_2.Click += new System.EventHandler(this.button1_Click);
+            home_2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            home_2.Location = new Point(12, 12);
+            home_2.Name = "home_2";
+            home_2.Size = new Size(70, 30);
+            home_2.TabIndex = 0;
+            home_2.Text = "Home";
+            home_2.UseVisualStyleBackColor = true;
+            home_2.Click += button1_Click;
             // 
             // Lessons
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(489, 249);
-            this.ControlBox = false;
-            this.Controls.Add(this.home_2);
-            this.Name = "Lessons";
-            this.Text = "Lessons";
-            this.ResumeLayout(false);
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(489, 249);
+            ControlBox = false;
+            Controls.Add(home_2);
+            Name = "Lessons";
+            Text = "Lessons";
+            ResumeLayout(false);
 
         }
 

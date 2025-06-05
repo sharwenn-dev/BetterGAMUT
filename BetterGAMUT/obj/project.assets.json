@@ -18,10 +18,14 @@
           "System.Security.Principal.Windows": "4.7.0"
         },
         "compile": {
-          "ref/netstandard2.0/Microsoft.Win32.Registry.dll": {}
+          "ref/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {}
+          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "related": ".xml"
+          }
         },
         "runtimeTargets": {
           "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
@@ -45,10 +49,14 @@
           "NAudio.WinMM": "2.2.1"
         },
         "compile": {
-          "lib/net6.0-windows7.0/NAudio.dll": {}
+          "lib/net6.0-windows7.0/NAudio.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0-windows7.0/NAudio.dll": {}
+          "lib/net6.0-windows7.0/NAudio.dll": {
+            "related": ".xml"
+          }
         }
       },
       "NAudio.Asio/2.2.1": {
@@ -58,19 +66,27 @@
           "NAudio.Core": "2.2.1"
         },
         "compile": {
-          "lib/netstandard2.0/NAudio.Asio.dll": {}
+          "lib/netstandard2.0/NAudio.Asio.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/NAudio.Asio.dll": {}
+          "lib/netstandard2.0/NAudio.Asio.dll": {
+            "related": ".xml"
+          }
         }
       },
       "NAudio.Core/2.2.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/NAudio.Core.dll": {}
+          "lib/netstandard2.0/NAudio.Core.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/NAudio.Core.dll": {}
+          "lib/netstandard2.0/NAudio.Core.dll": {
+            "related": ".xml"
+          }
         }
       },
       "NAudio.Midi/2.2.1": {
@@ -79,10 +95,14 @@
           "NAudio.Core": "2.2.1"
         },
         "compile": {
-          "lib/netstandard2.0/NAudio.Midi.dll": {}
+          "lib/netstandard2.0/NAudio.Midi.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/NAudio.Midi.dll": {}
+          "lib/netstandard2.0/NAudio.Midi.dll": {
+            "related": ".xml"
+          }
         }
       },
       "NAudio.Wasapi/2.2.1": {
@@ -91,10 +111,14 @@
           "NAudio.Core": "2.2.1"
         },
         "compile": {
-          "lib/netstandard2.0/NAudio.Wasapi.dll": {}
+          "lib/netstandard2.0/NAudio.Wasapi.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/NAudio.Wasapi.dll": {}
+          "lib/netstandard2.0/NAudio.Wasapi.dll": {
+            "related": ".xml"
+          }
         }
       },
       "NAudio.WinForms/2.2.1": {
@@ -103,10 +127,14 @@
           "NAudio.WinMM": "2.2.1"
         },
         "compile": {
-          "lib/netcoreapp3.1/NAudio.WinForms.dll": {}
+          "lib/netcoreapp3.1/NAudio.WinForms.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp3.1/NAudio.WinForms.dll": {}
+          "lib/netcoreapp3.1/NAudio.WinForms.dll": {
+            "related": ".xml"
+          }
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
@@ -119,10 +147,14 @@
           "NAudio.Core": "2.2.1"
         },
         "compile": {
-          "lib/netstandard2.0/NAudio.WinMM.dll": {}
+          "lib/netstandard2.0/NAudio.WinMM.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/NAudio.WinMM.dll": {}
+          "lib/netstandard2.0/NAudio.WinMM.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Security.AccessControl/4.7.0": {
@@ -132,10 +164,14 @@
           "System.Security.Principal.Windows": "4.7.0"
         },
         "compile": {
-          "ref/netstandard2.0/System.Security.AccessControl.dll": {}
+          "ref/netstandard2.0/System.Security.AccessControl.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Security.AccessControl.dll": {}
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {
+            "related": ".xml"
+          }
         },
         "runtimeTargets": {
           "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll": {
@@ -147,10 +183,14 @@
       "System.Security.Principal.Windows/4.7.0": {
         "type": "package",
         "compile": {
-          "ref/netcoreapp3.0/System.Security.Principal.Windows.dll": {}
+          "ref/netcoreapp3.0/System.Security.Principal.Windows.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {}
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {
+            "related": ".xml"
+          }
         },
         "runtimeTargets": {
           "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
@@ -447,23 +487,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kubala.j\\.nuget\\packages\\": {}
+    "C:\\Users\\magni\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kubala.j\\Desktop\\BetterGAMUT\\BetterGAMUT\\BetterGAMUT.csproj",
+      "projectUniqueName": "C:\\Users\\magni\\Desktop\\BetterGAMUT\\BetterGAMUT\\BetterGAMUT\\BetterGAMUT.csproj",
       "projectName": "BetterGAMUT",
-      "projectPath": "C:\\Users\\kubala.j\\Desktop\\BetterGAMUT\\BetterGAMUT\\BetterGAMUT.csproj",
-      "packagesPath": "C:\\Users\\kubala.j\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kubala.j\\Desktop\\BetterGAMUT\\BetterGAMUT\\obj\\",
+      "projectPath": "C:\\Users\\magni\\Desktop\\BetterGAMUT\\BetterGAMUT\\BetterGAMUT\\BetterGAMUT.csproj",
+      "packagesPath": "C:\\Users\\magni\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\magni\\Desktop\\BetterGAMUT\\BetterGAMUT\\BetterGAMUT\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\kubala.j\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\magni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0-windows7.0"
+        "net6.0-windows"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -479,7 +524,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net6.0-windows7.0": {
@@ -496,10 +547,29 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -508,7 +578,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

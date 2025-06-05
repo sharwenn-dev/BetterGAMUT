@@ -29,317 +29,347 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fretboardid));
-            this.home_3 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.Abutton = new System.Windows.Forms.Button();
-            this.ASharp = new System.Windows.Forms.Button();
-            this.Bbutton = new System.Windows.Forms.Button();
-            this.Cbutton = new System.Windows.Forms.Button();
-            this.CSharp = new System.Windows.Forms.Button();
-            this.GSharp = new System.Windows.Forms.Button();
-            this.Gbutton = new System.Windows.Forms.Button();
-            this.Ebutton = new System.Windows.Forms.Button();
-            this.DSharp = new System.Windows.Forms.Button();
-            this.Dbutton = new System.Windows.Forms.Button();
-            this.Fbutton = new System.Windows.Forms.Button();
-            this.FSharp = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.SuspendLayout();
+            home_3 = new Button();
+            pictureBox1 = new PictureBox();
+            button1 = new Button();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            Abutton = new Button();
+            ASharp = new Button();
+            Bbutton = new Button();
+            Cbutton = new Button();
+            CSharp = new Button();
+            GSharp = new Button();
+            Gbutton = new Button();
+            Ebutton = new Button();
+            DSharp = new Button();
+            Dbutton = new Button();
+            Fbutton = new Button();
+            FSharp = new Button();
+            label4 = new Label();
+            label5 = new Label();
+            button2 = new Button();
+            label6 = new Label();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            SuspendLayout();
             // 
             // home_3
             // 
-            this.home_3.BackColor = System.Drawing.Color.Transparent;
-            this.home_3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("home_3.BackgroundImage")));
-            this.home_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.home_3.FlatAppearance.BorderSize = 0;
-            this.home_3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.home_3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.home_3.ForeColor = System.Drawing.Color.Transparent;
-            this.home_3.Location = new System.Drawing.Point(12, 12);
-            this.home_3.Name = "home_3";
-            this.home_3.Size = new System.Drawing.Size(35, 35);
-            this.home_3.TabIndex = 1;
-            this.home_3.UseVisualStyleBackColor = false;
-            this.home_3.Click += new System.EventHandler(this.home_3_Click);
+            home_3.BackColor = Color.Transparent;
+            home_3.BackgroundImage = (Image)resources.GetObject("home_3.BackgroundImage");
+            home_3.BackgroundImageLayout = ImageLayout.Stretch;
+            home_3.FlatAppearance.BorderSize = 0;
+            home_3.FlatStyle = FlatStyle.Flat;
+            home_3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            home_3.ForeColor = Color.Transparent;
+            home_3.Location = new Point(12, 12);
+            home_3.Name = "home_3";
+            home_3.Size = new Size(35, 35);
+            home_3.TabIndex = 1;
+            home_3.UseVisualStyleBackColor = false;
+            home_3.Click += home_3_Click;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Image = global::BetterGAMUT.Properties.Resources.Basic_red_dot;
-            this.pictureBox1.Location = new System.Drawing.Point(6, 113);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(15, 15);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Visible = false;
+            pictureBox1.BackColor = Color.Transparent;
+            pictureBox1.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox1.Image = Properties.Resources.Basic_red_dot;
+            pictureBox1.Location = new Point(6, 113);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(15, 15);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 2;
+            pictureBox1.TabStop = false;
+            pictureBox1.Visible = false;
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(30, 212);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(109, 41);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "BEGIN";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            button1.BackColor = Color.Transparent;
+            button1.FlatStyle = FlatStyle.Popup;
+            button1.ForeColor = Color.White;
+            button1.Location = new Point(21, 212);
+            button1.Name = "button1";
+            button1.Size = new Size(59, 41);
+            button1.TabIndex = 3;
+            button1.Text = "BEGIN";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(166, 190);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 15);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "label1";
-            this.label1.Visible = false;
+            label1.AutoSize = true;
+            label1.Location = new Point(166, 190);
+            label1.Name = "label1";
+            label1.Size = new Size(38, 15);
+            label1.TabIndex = 4;
+            label1.Text = "label1";
+            label1.Visible = false;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(242, 190);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 15);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "label2";
-            this.label2.Visible = false;
+            label2.AutoSize = true;
+            label2.Location = new Point(242, 190);
+            label2.Name = "label2";
+            label2.Size = new Size(38, 15);
+            label2.TabIndex = 5;
+            label2.Text = "label2";
+            label2.Visible = false;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(317, 190);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 15);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "label3";
-            this.label3.Visible = false;
+            label3.AutoSize = true;
+            label3.Location = new Point(317, 190);
+            label3.Name = "label3";
+            label3.Size = new Size(38, 15);
+            label3.TabIndex = 6;
+            label3.Text = "label3";
+            label3.Visible = false;
             // 
             // Abutton
             // 
-            this.Abutton.BackColor = System.Drawing.Color.Transparent;
-            this.Abutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Abutton.ForeColor = System.Drawing.Color.White;
-            this.Abutton.Location = new System.Drawing.Point(164, 208);
-            this.Abutton.Name = "Abutton";
-            this.Abutton.Size = new System.Drawing.Size(38, 23);
-            this.Abutton.TabIndex = 7;
-            this.Abutton.Text = "A";
-            this.Abutton.UseVisualStyleBackColor = false;
-            this.Abutton.Click += new System.EventHandler(this.Abutton_Click);
+            Abutton.BackColor = Color.Transparent;
+            Abutton.FlatStyle = FlatStyle.Popup;
+            Abutton.ForeColor = Color.White;
+            Abutton.Location = new Point(164, 208);
+            Abutton.Name = "Abutton";
+            Abutton.Size = new Size(38, 23);
+            Abutton.TabIndex = 7;
+            Abutton.Text = "A";
+            Abutton.UseVisualStyleBackColor = false;
+            Abutton.Click += Abutton_Click;
             // 
             // ASharp
             // 
-            this.ASharp.BackColor = System.Drawing.Color.Transparent;
-            this.ASharp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.ASharp.ForeColor = System.Drawing.Color.White;
-            this.ASharp.Location = new System.Drawing.Point(208, 208);
-            this.ASharp.Name = "ASharp";
-            this.ASharp.Size = new System.Drawing.Size(38, 23);
-            this.ASharp.TabIndex = 8;
-            this.ASharp.Text = "A#";
-            this.ASharp.UseVisualStyleBackColor = false;
-            this.ASharp.Click += new System.EventHandler(this.ASharp_Click);
+            ASharp.BackColor = Color.Transparent;
+            ASharp.FlatStyle = FlatStyle.Popup;
+            ASharp.ForeColor = Color.White;
+            ASharp.Location = new Point(208, 208);
+            ASharp.Name = "ASharp";
+            ASharp.Size = new Size(38, 23);
+            ASharp.TabIndex = 8;
+            ASharp.Text = "A#";
+            ASharp.UseVisualStyleBackColor = false;
+            ASharp.Click += ASharp_Click;
             // 
             // Bbutton
             // 
-            this.Bbutton.BackColor = System.Drawing.Color.Transparent;
-            this.Bbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Bbutton.ForeColor = System.Drawing.Color.White;
-            this.Bbutton.Location = new System.Drawing.Point(252, 208);
-            this.Bbutton.Name = "Bbutton";
-            this.Bbutton.Size = new System.Drawing.Size(38, 23);
-            this.Bbutton.TabIndex = 9;
-            this.Bbutton.Text = "B";
-            this.Bbutton.UseVisualStyleBackColor = false;
-            this.Bbutton.Click += new System.EventHandler(this.Bbutton_Click);
+            Bbutton.BackColor = Color.Transparent;
+            Bbutton.FlatStyle = FlatStyle.Popup;
+            Bbutton.ForeColor = Color.White;
+            Bbutton.Location = new Point(252, 208);
+            Bbutton.Name = "Bbutton";
+            Bbutton.Size = new Size(38, 23);
+            Bbutton.TabIndex = 9;
+            Bbutton.Text = "B";
+            Bbutton.UseVisualStyleBackColor = false;
+            Bbutton.Click += Bbutton_Click;
             // 
             // Cbutton
             // 
-            this.Cbutton.BackColor = System.Drawing.Color.Transparent;
-            this.Cbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Cbutton.ForeColor = System.Drawing.Color.White;
-            this.Cbutton.Location = new System.Drawing.Point(296, 208);
-            this.Cbutton.Name = "Cbutton";
-            this.Cbutton.Size = new System.Drawing.Size(38, 23);
-            this.Cbutton.TabIndex = 10;
-            this.Cbutton.Text = "C";
-            this.Cbutton.UseVisualStyleBackColor = false;
-            this.Cbutton.Click += new System.EventHandler(this.Cbutton_Click);
+            Cbutton.BackColor = Color.Transparent;
+            Cbutton.FlatStyle = FlatStyle.Popup;
+            Cbutton.ForeColor = Color.White;
+            Cbutton.Location = new Point(296, 208);
+            Cbutton.Name = "Cbutton";
+            Cbutton.Size = new Size(38, 23);
+            Cbutton.TabIndex = 10;
+            Cbutton.Text = "C";
+            Cbutton.UseVisualStyleBackColor = false;
+            Cbutton.Click += Cbutton_Click;
             // 
             // CSharp
             // 
-            this.CSharp.BackColor = System.Drawing.Color.Transparent;
-            this.CSharp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.CSharp.ForeColor = System.Drawing.Color.White;
-            this.CSharp.Location = new System.Drawing.Point(340, 208);
-            this.CSharp.Name = "CSharp";
-            this.CSharp.Size = new System.Drawing.Size(38, 23);
-            this.CSharp.TabIndex = 11;
-            this.CSharp.Text = "C#";
-            this.CSharp.UseVisualStyleBackColor = false;
-            this.CSharp.Click += new System.EventHandler(this.CSharp_Click);
+            CSharp.BackColor = Color.Transparent;
+            CSharp.FlatStyle = FlatStyle.Popup;
+            CSharp.ForeColor = Color.White;
+            CSharp.Location = new Point(340, 208);
+            CSharp.Name = "CSharp";
+            CSharp.Size = new Size(38, 23);
+            CSharp.TabIndex = 11;
+            CSharp.Text = "C#";
+            CSharp.UseVisualStyleBackColor = false;
+            CSharp.Click += CSharp_Click;
             // 
             // GSharp
             // 
-            this.GSharp.BackColor = System.Drawing.Color.Transparent;
-            this.GSharp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.GSharp.ForeColor = System.Drawing.Color.White;
-            this.GSharp.Location = new System.Drawing.Point(384, 234);
-            this.GSharp.Name = "GSharp";
-            this.GSharp.Size = new System.Drawing.Size(38, 23);
-            this.GSharp.TabIndex = 16;
-            this.GSharp.Text = "G#";
-            this.GSharp.UseVisualStyleBackColor = false;
-            this.GSharp.Click += new System.EventHandler(this.GSharp_Click);
+            GSharp.BackColor = Color.Transparent;
+            GSharp.FlatStyle = FlatStyle.Popup;
+            GSharp.ForeColor = Color.White;
+            GSharp.Location = new Point(384, 234);
+            GSharp.Name = "GSharp";
+            GSharp.Size = new Size(38, 23);
+            GSharp.TabIndex = 16;
+            GSharp.Text = "G#";
+            GSharp.UseVisualStyleBackColor = false;
+            GSharp.Click += GSharp_Click;
             // 
             // Gbutton
             // 
-            this.Gbutton.BackColor = System.Drawing.Color.Transparent;
-            this.Gbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Gbutton.ForeColor = System.Drawing.Color.White;
-            this.Gbutton.Location = new System.Drawing.Point(340, 234);
-            this.Gbutton.Name = "Gbutton";
-            this.Gbutton.Size = new System.Drawing.Size(38, 23);
-            this.Gbutton.TabIndex = 15;
-            this.Gbutton.Text = "G";
-            this.Gbutton.UseVisualStyleBackColor = false;
-            this.Gbutton.Click += new System.EventHandler(this.Gbutton_Click);
+            Gbutton.BackColor = Color.Transparent;
+            Gbutton.FlatStyle = FlatStyle.Popup;
+            Gbutton.ForeColor = Color.White;
+            Gbutton.Location = new Point(340, 234);
+            Gbutton.Name = "Gbutton";
+            Gbutton.Size = new Size(38, 23);
+            Gbutton.TabIndex = 15;
+            Gbutton.Text = "G";
+            Gbutton.UseVisualStyleBackColor = false;
+            Gbutton.Click += Gbutton_Click;
             // 
             // Ebutton
             // 
-            this.Ebutton.BackColor = System.Drawing.Color.Transparent;
-            this.Ebutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Ebutton.ForeColor = System.Drawing.Color.White;
-            this.Ebutton.Location = new System.Drawing.Point(208, 234);
-            this.Ebutton.Name = "Ebutton";
-            this.Ebutton.Size = new System.Drawing.Size(38, 23);
-            this.Ebutton.TabIndex = 14;
-            this.Ebutton.Text = "E";
-            this.Ebutton.UseVisualStyleBackColor = false;
-            this.Ebutton.Click += new System.EventHandler(this.Ebutton_Click);
+            Ebutton.BackColor = Color.Transparent;
+            Ebutton.FlatStyle = FlatStyle.Popup;
+            Ebutton.ForeColor = Color.White;
+            Ebutton.Location = new Point(208, 234);
+            Ebutton.Name = "Ebutton";
+            Ebutton.Size = new Size(38, 23);
+            Ebutton.TabIndex = 14;
+            Ebutton.Text = "E";
+            Ebutton.UseVisualStyleBackColor = false;
+            Ebutton.Click += Ebutton_Click;
             // 
             // DSharp
             // 
-            this.DSharp.BackColor = System.Drawing.Color.Transparent;
-            this.DSharp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.DSharp.ForeColor = System.Drawing.Color.White;
-            this.DSharp.Location = new System.Drawing.Point(164, 234);
-            this.DSharp.Name = "DSharp";
-            this.DSharp.Size = new System.Drawing.Size(38, 23);
-            this.DSharp.TabIndex = 13;
-            this.DSharp.Text = "D#";
-            this.DSharp.UseVisualStyleBackColor = false;
-            this.DSharp.Click += new System.EventHandler(this.DSharp_Click);
+            DSharp.BackColor = Color.Transparent;
+            DSharp.FlatStyle = FlatStyle.Popup;
+            DSharp.ForeColor = Color.White;
+            DSharp.Location = new Point(164, 234);
+            DSharp.Name = "DSharp";
+            DSharp.Size = new Size(38, 23);
+            DSharp.TabIndex = 13;
+            DSharp.Text = "D#";
+            DSharp.UseVisualStyleBackColor = false;
+            DSharp.Click += DSharp_Click;
             // 
             // Dbutton
             // 
-            this.Dbutton.BackColor = System.Drawing.Color.Transparent;
-            this.Dbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Dbutton.ForeColor = System.Drawing.Color.White;
-            this.Dbutton.Location = new System.Drawing.Point(384, 208);
-            this.Dbutton.Name = "Dbutton";
-            this.Dbutton.Size = new System.Drawing.Size(38, 23);
-            this.Dbutton.TabIndex = 12;
-            this.Dbutton.Text = "D";
-            this.Dbutton.UseVisualStyleBackColor = false;
-            this.Dbutton.Click += new System.EventHandler(this.Dbutton_Click);
+            Dbutton.BackColor = Color.Transparent;
+            Dbutton.FlatStyle = FlatStyle.Popup;
+            Dbutton.ForeColor = Color.White;
+            Dbutton.Location = new Point(384, 208);
+            Dbutton.Name = "Dbutton";
+            Dbutton.Size = new Size(38, 23);
+            Dbutton.TabIndex = 12;
+            Dbutton.Text = "D";
+            Dbutton.UseVisualStyleBackColor = false;
+            Dbutton.Click += Dbutton_Click;
             // 
             // Fbutton
             // 
-            this.Fbutton.BackColor = System.Drawing.Color.Transparent;
-            this.Fbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Fbutton.ForeColor = System.Drawing.Color.White;
-            this.Fbutton.Location = new System.Drawing.Point(252, 234);
-            this.Fbutton.Name = "Fbutton";
-            this.Fbutton.Size = new System.Drawing.Size(38, 23);
-            this.Fbutton.TabIndex = 17;
-            this.Fbutton.Text = "F";
-            this.Fbutton.UseVisualStyleBackColor = false;
-            this.Fbutton.Click += new System.EventHandler(this.Fbutton_Click);
+            Fbutton.BackColor = Color.Transparent;
+            Fbutton.FlatStyle = FlatStyle.Popup;
+            Fbutton.ForeColor = Color.White;
+            Fbutton.Location = new Point(252, 234);
+            Fbutton.Name = "Fbutton";
+            Fbutton.Size = new Size(38, 23);
+            Fbutton.TabIndex = 17;
+            Fbutton.Text = "F";
+            Fbutton.UseVisualStyleBackColor = false;
+            Fbutton.Click += Fbutton_Click;
             // 
             // FSharp
             // 
-            this.FSharp.BackColor = System.Drawing.Color.Transparent;
-            this.FSharp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.FSharp.ForeColor = System.Drawing.Color.White;
-            this.FSharp.Location = new System.Drawing.Point(296, 234);
-            this.FSharp.Name = "FSharp";
-            this.FSharp.Size = new System.Drawing.Size(38, 23);
-            this.FSharp.TabIndex = 18;
-            this.FSharp.Text = "F#";
-            this.FSharp.UseVisualStyleBackColor = false;
-            this.FSharp.Click += new System.EventHandler(this.FSharp_Click);
+            FSharp.BackColor = Color.Transparent;
+            FSharp.FlatStyle = FlatStyle.Popup;
+            FSharp.ForeColor = Color.White;
+            FSharp.Location = new Point(296, 234);
+            FSharp.Name = "FSharp";
+            FSharp.Size = new Size(38, 23);
+            FSharp.TabIndex = 18;
+            FSharp.Text = "F#";
+            FSharp.UseVisualStyleBackColor = false;
+            FSharp.Click += FSharp_Click;
             // 
             // label4
             // 
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(359, 12);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(64, 28);
-            this.label4.TabIndex = 19;
-            this.label4.Text = "0/0";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            label4.BackColor = Color.Transparent;
+            label4.FlatStyle = FlatStyle.Flat;
+            label4.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.ForeColor = Color.White;
+            label4.Location = new Point(282, 14);
+            label4.Name = "label4";
+            label4.Size = new Size(64, 28);
+            label4.TabIndex = 19;
+            label4.Text = "0/0";
+            label4.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label5
             // 
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label5.Font = new System.Drawing.Font("Myanmar Text", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(97, 12);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(237, 28);
-            this.label5.TabIndex = 20;
-            this.label5.Text = "Note Identification";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            label5.BackColor = Color.Transparent;
+            label5.FlatStyle = FlatStyle.Flat;
+            label5.Font = new Font("Myanmar Text", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label5.ForeColor = Color.White;
+            label5.Location = new Point(53, 12);
+            label5.Name = "label5";
+            label5.Size = new Size(237, 28);
+            label5.TabIndex = 20;
+            label5.Text = "Note Identification";
+            label5.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.Transparent;
+            button2.FlatStyle = FlatStyle.Popup;
+            button2.ForeColor = Color.White;
+            button2.Location = new Point(95, 212);
+            button2.Name = "button2";
+            button2.Size = new Size(59, 41);
+            button2.TabIndex = 21;
+            button2.Text = "PLAY NOTE";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            // 
+            // label6
+            // 
+            label6.BackColor = Color.Transparent;
+            label6.FlatStyle = FlatStyle.Flat;
+            label6.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.ForeColor = Color.White;
+            label6.Location = new Point(352, 14);
+            label6.Name = "label6";
+            label6.Size = new Size(80, 28);
+            label6.TabIndex = 40;
+            label6.Text = "0.0%";
+            label6.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // fretboardid
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(434, 261);
-            this.ControlBox = false;
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.FSharp);
-            this.Controls.Add(this.Fbutton);
-            this.Controls.Add(this.GSharp);
-            this.Controls.Add(this.Gbutton);
-            this.Controls.Add(this.Ebutton);
-            this.Controls.Add(this.DSharp);
-            this.Controls.Add(this.Dbutton);
-            this.Controls.Add(this.CSharp);
-            this.Controls.Add(this.Cbutton);
-            this.Controls.Add(this.Bbutton);
-            this.Controls.Add(this.ASharp);
-            this.Controls.Add(this.Abutton);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.home_3);
-            this.DoubleBuffered = true;
-            this.Name = "fretboardid";
-            this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(434, 261);
+            ControlBox = false;
+            Controls.Add(label6);
+            Controls.Add(button2);
+            Controls.Add(label5);
+            Controls.Add(label4);
+            Controls.Add(FSharp);
+            Controls.Add(Fbutton);
+            Controls.Add(GSharp);
+            Controls.Add(Gbutton);
+            Controls.Add(Ebutton);
+            Controls.Add(DSharp);
+            Controls.Add(Dbutton);
+            Controls.Add(CSharp);
+            Controls.Add(Cbutton);
+            Controls.Add(Bbutton);
+            Controls.Add(ASharp);
+            Controls.Add(Abutton);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(button1);
+            Controls.Add(pictureBox1);
+            Controls.Add(home_3);
+            DoubleBuffered = true;
+            Name = "fretboardid";
+            Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
 
         }
 
@@ -365,5 +395,7 @@
         private Button FSharp;
         private Label label4;
         private Label label5;
+        private Button button2;
+        private Label label6;
     }
 }

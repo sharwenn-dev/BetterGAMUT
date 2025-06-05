@@ -90,12 +90,18 @@ namespace BetterGAMUT
                 "A", "A#", "B", "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#"
             };
             int Thingy = 0;
-            if (String == 1) {Thingy = 7;};
-            if (String == 2) {Thingy = 0;};
-            if (String == 3) {Thingy = 5;};
-            if (String == 4) {Thingy = 10;};
-            if (String == 5) {Thingy = 2;};
-            if (String == 6) {Thingy = 7;};
+            if (String == 1) { Thingy = 7; }
+            ;
+            if (String == 2) { Thingy = 2; }
+            ;
+            if (String == 3) { Thingy = 10; }
+            ;
+            if (String == 4) { Thingy = 5; }
+            ;
+            if (String == 5) { Thingy = 0; }
+            ;
+            if (String == 6) { Thingy = 7; }
+            ;
             Note = lst[Fret - 1 + Thingy];
             label3.Text = Note;
             button1.Text = "NEXT";
@@ -112,21 +118,35 @@ namespace BetterGAMUT
             Fbutton.BackColor = Color.Transparent;
             FSharp.BackColor = Color.Transparent;
             label4.Text = Correct.ToString() + "/" + Total.ToString();
+
+            if (Total > 0)
+            {
+                double percentage = (double)Correct / Total * 100;
+                label6.Text = $"{percentage:F1}% correct";
+            }
+            else
+            {
+                label6.Text = "0.0%";
+            }
         }
 
-   
+
 
         public void Abutton_Click(object sender, EventArgs e)
         {
-            if (Abutton.Text == label3.Text) { Abutton.BackColor = Color.Green; Correct += 1;  Total += 1;
+            if (Abutton.Text == label3.Text)
+            {
+                Abutton.BackColor = Color.Green; Correct += 1; Total += 1;
                 PlayNoteName("A");
             }
-            else {Abutton.BackColor = Color.Red; Total += 1; }
+            else { Abutton.BackColor = Color.Red; Total += 1; }
         }
 
         private void ASharp_Click(object sender, EventArgs e)
         {
-            if (ASharp.Text == label3.Text) { ASharp.BackColor = Color.Green; Correct += 1; Total += 1;
+            if (ASharp.Text == label3.Text)
+            {
+                ASharp.BackColor = Color.Green; Correct += 1; Total += 1;
                 PlayNoteName("A#");
             }
             else { ASharp.BackColor = Color.Red; Total += 1; }
@@ -134,7 +154,9 @@ namespace BetterGAMUT
 
         private void Bbutton_Click(object sender, EventArgs e)
         {
-            if (Bbutton.Text == label3.Text) { Bbutton.BackColor = Color.Green; Correct += 1; Total += 1;
+            if (Bbutton.Text == label3.Text)
+            {
+                Bbutton.BackColor = Color.Green; Correct += 1; Total += 1;
                 PlayNoteName("B");
             }
             else { Bbutton.BackColor = Color.Red; Total += 1; }
@@ -142,7 +164,9 @@ namespace BetterGAMUT
 
         private void Cbutton_Click(object sender, EventArgs e)
         {
-            if (Cbutton.Text == label3.Text) { Cbutton.BackColor = Color.Green; Correct += 1; Total += 1;
+            if (Cbutton.Text == label3.Text)
+            {
+                Cbutton.BackColor = Color.Green; Correct += 1; Total += 1;
                 PlayNoteName("C");
             }
             else { Cbutton.BackColor = Color.Red; Total += 1; }
@@ -150,7 +174,9 @@ namespace BetterGAMUT
 
         private void CSharp_Click(object sender, EventArgs e)
         {
-            if (CSharp.Text == label3.Text) { CSharp.BackColor = Color.Green; Correct += 1; Total += 1;
+            if (CSharp.Text == label3.Text)
+            {
+                CSharp.BackColor = Color.Green; Correct += 1; Total += 1;
                 PlayNoteName("C#");
             }
             else { CSharp.BackColor = Color.Red; Total += 1; }
@@ -158,7 +184,9 @@ namespace BetterGAMUT
 
         private void Dbutton_Click(object sender, EventArgs e)
         {
-            if (Dbutton.Text == label3.Text) { Dbutton.BackColor = Color.Green; Correct += 1; Total += 1;
+            if (Dbutton.Text == label3.Text)
+            {
+                Dbutton.BackColor = Color.Green; Correct += 1; Total += 1;
                 PlayNoteName("D");
             }
             else { Dbutton.BackColor = Color.Red; Total += 1; }
@@ -166,7 +194,9 @@ namespace BetterGAMUT
 
         private void DSharp_Click(object sender, EventArgs e)
         {
-            if (DSharp.Text == label3.Text) { DSharp.BackColor = Color.Green; Correct += 1; Total += 1;
+            if (DSharp.Text == label3.Text)
+            {
+                DSharp.BackColor = Color.Green; Correct += 1; Total += 1;
                 PlayNoteName("D#");
             }
             else { DSharp.BackColor = Color.Red; Total += 1; }
@@ -174,7 +204,9 @@ namespace BetterGAMUT
 
         private void Ebutton_Click(object sender, EventArgs e)
         {
-            if (Ebutton.Text == label3.Text) { Ebutton.BackColor = Color.Green; Correct += 1; Total += 1;
+            if (Ebutton.Text == label3.Text)
+            {
+                Ebutton.BackColor = Color.Green; Correct += 1; Total += 1;
                 PlayNoteName("E");
             }
             else { Ebutton.BackColor = Color.Red; Total += 1; }
@@ -182,7 +214,9 @@ namespace BetterGAMUT
 
         private void Gbutton_Click(object sender, EventArgs e)
         {
-            if (Gbutton.Text == label3.Text) { Gbutton.BackColor = Color.Green; Correct += 1; Total += 1;
+            if (Gbutton.Text == label3.Text)
+            {
+                Gbutton.BackColor = Color.Green; Correct += 1; Total += 1;
                 PlayNoteName("G");
             }
             else { Gbutton.BackColor = Color.Red; Total += 1; }
@@ -190,7 +224,9 @@ namespace BetterGAMUT
 
         private void GSharp_Click(object sender, EventArgs e)
         {
-            if (GSharp.Text == label3.Text) { GSharp.BackColor = Color.Green; Correct += 1; Total += 1;
+            if (GSharp.Text == label3.Text)
+            {
+                GSharp.BackColor = Color.Green; Correct += 1; Total += 1;
                 PlayNoteName("G#");
             }
             else { GSharp.BackColor = Color.Red; Total += 1; }
@@ -198,7 +234,9 @@ namespace BetterGAMUT
 
         private void Fbutton_Click(object sender, EventArgs e)
         {
-            if (Fbutton.Text == label3.Text) { Fbutton.BackColor = Color.Green; Correct += 1; Total += 1;
+            if (Fbutton.Text == label3.Text)
+            {
+                Fbutton.BackColor = Color.Green; Correct += 1; Total += 1;
                 PlayNoteName("F");
             }
             else { Fbutton.BackColor = Color.Red; Total += 1; }
@@ -206,10 +244,17 @@ namespace BetterGAMUT
 
         private void FSharp_Click(object sender, EventArgs e)
         {
-            if (FSharp.Text == label3.Text) { FSharp.BackColor = Color.Green; Correct += 1; Total += 1;
+            if (FSharp.Text == label3.Text)
+            {
+                FSharp.BackColor = Color.Green; Correct += 1; Total += 1;
                 PlayNoteName("F#");
             }
             else { FSharp.BackColor = Color.Red; Total += 1; }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            PlayNoteName(label3.Text);
         }
     }
 }
